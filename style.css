@@ -75,15 +75,26 @@ body {
         padding: 10px;
         border-bottom: solid black 1px;
         justify-content: space-around;
+        
     }
     .Categories p{
         background-color: #9D6DE8;
         padding: 15px;
         border-radius: 30px;
         color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+        border: solid #9D6DE8 1px;
+    }
+    .Categories p:hover{
+        transition: 1s;
+        background-color: transparent;
+        color: #9D6DE8;
+
     }
     .Sale-Image{
         position: relative;
+        
     }
     .Sale-Image img{
         width: 100%;
@@ -96,7 +107,24 @@ body {
         position: absolute;
         top: 10%;
         left: 10%;
+        animation-name: zoom;
+        animation-duration: 3s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+        
+        
 
+    }
+    @keyframes zoom{
+        0%{
+              transform: scale(0);
+              opacity: 0;
+        }
+        100%{
+            opacity: 1;
+            transform: scale(1);
+
+        }
     }
     
     .Recommended__container{
