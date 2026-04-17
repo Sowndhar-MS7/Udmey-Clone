@@ -45,4 +45,4 @@ udemy-clone/
 ## ⚡ How to Run
 1. Clone the repository:
    ```bash
-   git clone https://sowndhar-ms7.github.io/EMC-Projects/
+   https://sowndhar-ms7.github.io/EMC-Projects/
